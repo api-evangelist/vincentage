@@ -1,8 +1,26 @@
 aid: vincentage
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vincentage.png
 name: Vincentage
-description: 'Vincentage is a company surfaced as a portfolio company of idg-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Vincentage (Vincentage Pharma Co., Ltd.) is a clinical-stage biotech founded in 2021
+  and headquartered in Suzhou, China, developing novel small-molecule drugs for metabolic and
+  cardiometabolic diseases including type 2 diabetes, obesity, and MASH. Its lead candidate is
+  VCT220 (also known as CX11), an oral small-molecule GLP-1 receptor agonist; worldwide rights
+  (excluding Greater China) to CX11 were acquired by Corxel Pharmaceuticals. Investors include
+  IDG Capital, Everest VC, Shenzhen Capital Group, Galaxy Industry Group, and Kunshan Asia Aroma.
+  Surfaced as a portfolio company of IDG Capital and added to the API Evangelist network for
+  enrichment; as a drug-discovery pharmaceutical company it publishes no public API, developer
+  portal, or technical artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/vincentage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Metabolic Disease
+- GLP-1
+- China
 apis: []
+common:
+- type: Website
+  url: https://www.vincentage.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
